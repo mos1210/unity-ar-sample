@@ -27,7 +27,9 @@ namespace UnityAR
 
         void Awake()
         {
-            if(message == null) { Application.Quit(); }
+            if (message == null) {
+                Application.Quit();
+            }
             planeManager = GetComponent<ARPlaneManager>();
             playerInput = GetComponent<PlayerInput>();
             raycastManager = GetComponent<ARRaycastManager>();
@@ -48,17 +50,17 @@ namespace UnityAR
         }
 
 
-        // Start is called before the first frame update
-        void Start()
-        {
+        //// Start is called before the first frame update
+        //void Start()
+        //{
 
-        }
+        //}
 
-        // Update is called once per frame
-        void Update()
-        {
+        //// Update is called once per frame
+        //void Update()
+        //{
 
-        }
+        //}
 
         GameObject instantiatedObject = null;
 

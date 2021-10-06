@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 1632873346}
-  placementPrefab: {fileID: -927199367670048503, guid: 4d51cb03e8672bd4aa23c356eec11fe3, type: 3}
+  placementPrefab: {fileID: 6636578907997822738, guid: 30934d1c0979cc24cbff8b7cb616b5dc, type: 3}
 --- !u!1 &1632873344
 GameObject:
   m_ObjectHideFlags: 0
