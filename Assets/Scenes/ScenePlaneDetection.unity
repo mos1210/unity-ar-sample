@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 1469390295}
   - component: {fileID: 1469390296}
   - component: {fileID: 1469390297}
+  - component: {fileID: 1469390298}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -615,6 +616,20 @@ MonoBehaviour:
   m_DefaultActionMap: ARActions
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1469390298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469390292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf6996800ac14d858874f5f12661e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 1632873346}
+  placementPrefab: {fileID: -927199367670048503, guid: 4d51cb03e8672bd4aa23c356eec11fe3, type: 3}
 --- !u!1 &1632873344
 GameObject:
   m_ObjectHideFlags: 0
