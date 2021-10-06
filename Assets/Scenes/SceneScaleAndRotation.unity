@@ -309,9 +309,9 @@ RectTransform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -500}
-  m_SizeDelta: {x: 50, y: 100}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -270, y: -500}
+  m_SizeDelta: {x: -590, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375083798
 MonoBehaviour:
@@ -719,10 +719,10 @@ RectTransform:
   m_Father: {fileID: 1034454351}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -350}
-  m_SizeDelta: {x: 50, y: 100}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -270, y: -500}
+  m_SizeDelta: {x: -590, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &790830131
 MonoBehaviour:
@@ -1237,6 +1237,8 @@ GameObject:
   - component: {fileID: 1469390297}
   - component: {fileID: 1469390296}
   - component: {fileID: 1469390295}
+  - component: {fileID: 1469390299}
+  - component: {fileID: 1469390298}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1329,6 +1331,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 4096505030506937706, guid: 37828f7a60921460a83d31de30772439, type: 3}
   m_DetectionMode: 1
+--- !u!114 &1469390298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469390292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354d6c68eaa584625b648b5584bbb20e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 1632873346}
+  scaleText: {fileID: 439046660}
+  scaleSlider: {fileID: 790830131}
+  rotationText: {fileID: 286656622}
+  rotationSlider: {fileID: 375083798}
+--- !u!114 &1469390299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469390292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be74cf3d8c6244d0a07e52c2dcc8fe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementPrefab: {fileID: -927199367670048503, guid: 4d51cb03e8672bd4aa23c356eec11fe3, type: 3}
 --- !u!1 &1602972097
 GameObject:
   m_ObjectHideFlags: 0

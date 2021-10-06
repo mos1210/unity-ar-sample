@@ -60,14 +60,19 @@ namespace UnityAR
             var initScale = 1f;
             ShowScale(initScale);
             scaleSlider.value = (initScale - MinScale) / (MaxScale - MinScale);
-            scaleSlider.onValueChanged.AddListener(OnRotationSliderValueChanged);
+            scaleSlider.onValueChanged.AddListener(OnScaleSliderValueChanged);
+
+            var initRotation = Quaternion.identity;
+            ShowRotation(initRotation.eulerAngles.y);
+            rotationSlider.value = (initRotation.eulerAngles.y - MinRotation) / (MaxRotation - MinRotation);
+            rotationSlider.onValueChanged.AddListener(OnRotationSliderValueChanged);
         }
 
         void OnScaleSliderValueChanged(float value)
         {
             if (!isReady) { return; }
 
-            var scale = value * (MinScale - MinScale) + MinScale;
+            var scale = value * (MaxScale - MinScale) + MinScale;
             ShowScale(scale);
             makeAppearOnPlane.Scale = scale;
         }
