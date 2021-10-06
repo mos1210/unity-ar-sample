@@ -58,9 +58,9 @@ namespace UnityAR
             AddMessage("ARセッションの初期化");
 
             session.enabled = true;
-            const float Interval = 0.5f;
+            const float Interval = 30f;
             var timer = Interval;
-            while(ARSession.state == ARSessionState.Ready || ARSession.state == ARSessionState.SessionInitializing && timer > 0)
+            while((ARSession.state == ARSessionState.Ready || ARSession.state == ARSessionState.SessionInitializing) && timer > 0)
             {
                 var waitTime = 0.5f;
                 timer -= waitTime;
