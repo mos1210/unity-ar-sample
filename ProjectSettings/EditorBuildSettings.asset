@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SceneScaleAndRotation.unity
-    guid: 528654213dd304250819c66ff686019a
+    path: Assets/Scenes/SceneInteraction.unity
+    guid: 7cf4aba89d0144188bb6e17b714a9c8e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1bc6659fea8cd4891acf97b86e3c51e8, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a9359eaa01a924f4da8813059eef785e, type: 2}
